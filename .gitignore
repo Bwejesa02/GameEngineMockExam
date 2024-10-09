@@ -70,3 +70,28 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# -------------------- Additions Below --------------------
+
+# Ignore Unity Asset Store packages
+/[Aa]ssets/AssetStoreTools*
+
+# Ignore Build Folder (Optional if you include build files separately)
+Build/
+
+# Ignore Git Large File Storage Tracked Files
+.gitattributes
+
+# Ignore any auto-generated external files
+*.tmp
+*.temp
+*.cache
+
+# Ignore Unity auto-generated ShaderCache
+/[Pp]roject[Ss]ettings/ShaderCache/
+
+# Unity Addressables auto-generated data
+/[Aa]ssets/[Aa]ddressableAssetsData/*/*.bin*
+
+# Ignore unused platform folders
+/[Bb]uilds/*
