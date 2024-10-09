@@ -76,9 +76,6 @@ crashlytics-build.properties
 # Ignore Unity Asset Store packages
 /[Aa]ssets/AssetStoreTools*
 
-# Ignore Build Folder (Optional if you include build files separately)
-Build/
-
 # Ignore Git Large File Storage Tracked Files
 .gitattributes
 
