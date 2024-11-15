@@ -32,8 +32,6 @@ Build/
 /.gradle/
 /.vscode/
 
-# Ignore files related to Unity build and player settings
-Build/
 
 # Ignore logs
 *.log
