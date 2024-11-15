@@ -1,56 +1,45 @@
-# Ignore the OS-specific files
+Ignore the OS-specific files
 .DS_Store
 Thumbs.db
 
-# Ignore the Unity-specific folders
+Ignore the Unity-specific folders (except for Build folder)
 [Ll]ibrary/
 [Tt]emp/
 obj/
 bin/
-build/
-Build/
 
-# User-specific files
+User-specific files
 .idea/
 .vscode/
 
-# Ignore system files
+Ignore system files
 *.swp
 *.swo
 *.sublime-workspace
 *.sublime-project
 
-# Ignore build artifacts (you will use Git LFS for large files)
-*.apk
-*.aab
-*.exe
-*.app
-*.xcodeproj
-*.unitypackage
-
-# Ignore the Unity cache folders
+Ignore Unity cache folders
 /.gradle/
 /.vscode/
 
-
-# Ignore logs
+Ignore logs
 *.log
 
-# Ignore Unity crash logs
+Ignore Unity crash logs
 crash.dmp
 sysinfo.txt
 
-# Ignore Mono Auto-Generated files
+Ignore Mono Auto-Generated files
 .mono/
 
-# Ignore Visual Studio files (if using Visual Studio)
+Ignore Visual Studio files (if using Visual Studio)
 .vs/
 
-# Ignore temporary Unity project settings
+Ignore temporary Unity project settings
 projectSettings/
 
-# Unity specific, to handle generated files
-# Auto-generated files should not be tracked by Git
+Unity specific, to handle generated files
+Auto-generated files should not be tracked by Git
 *.user
 *.userprefs
 *.pidb
